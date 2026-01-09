@@ -172,3 +172,65 @@ padding-bottom: 16px;
 .white-color{
   color: white;
 }
+
+#box{
+  padding: 2px 120px;
+}
+#box .box-container{
+  width: 85%;
+  max-width: 1360px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 40px;
+  background-color: #F7F6F2;
+}
+#box .box-container h2{
+  font-size: 40px;
+  font-weight: bold;
+  color:#001931;
+  padding-bottom: 16px;
+}
+#box .box-container p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  padding-bottom: 24px;
+}
+#box .box-container .btn1{
+padding-bottom: 16px;
+}
+#box .box-container .pera-2{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  padding-bottom: 80px;
+}
+ 
+ 
+.footer-container{
+  background-color:#627382;
+  /* width: 85%;
+  max-width: 1600px; */
+  width: 100vw;
+  height: 50vh;
+  margin: 0 auto;
+  text-align: center;
+   padding:120px;
+  border: 1px solid red;  
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.footer-container p{
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 16px;
+}
+footer .name-flex{
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+ 
+   
