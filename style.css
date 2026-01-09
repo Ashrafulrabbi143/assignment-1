@@ -24,13 +24,12 @@ nav .menu{
   justify-content: space-between;
   gap: 180px;
 }
-nav .li a{
-  font-size: 16px;
-  line-height: 152%;
-  color: #000000;
-}
+
 nav .menu a{
   text-decoration: none;
+   font-size: 16px;
+  line-height: 152%;
+  color: #000000;
 }
 #bd-img .middle-point{
   width: 81%;
@@ -52,8 +51,8 @@ nav .menu a{
   font-weight: middle;
   color: #30b868;
   background-color: #e9e6fa;
-  padding: 8px 4px;
-  border-radius: 3px;
+  padding: 8px;
+  border-radius: 5px;
   display: inline-block;
   padding-bottom: 24px;
 }
@@ -223,7 +222,7 @@ padding-bottom: 16px;
   text-align: center;
    padding:120px;
   /* border: 1px solid red;   */
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   list-style: none;
 }
@@ -240,13 +239,20 @@ footer .name-flex{
 footer .line-one{
   width: 100%;
   background-color: white;
-  position: bottom,center;
 }
-footer .position-pera{
+/* footer .position-pera{
   text-align: center;
   margin-top: 0px;
   padding-bottom: 30px;
 background-color:#627382 ;
 
 }
-   
+    */
+ 
+.footer-name{
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-end{
+  padding: 120px 264px;
+}
