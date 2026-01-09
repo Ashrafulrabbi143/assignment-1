@@ -103,6 +103,12 @@ nav .menu a{
   color: #001931;
   margin-bottom: 16px;
 }
+#skill .skill-box img{
+  height: 60px;
+  width: 60px;
+  background-color:#F95555;
+  border-radius: 50%;
+}
  
 #skill .skill-container .skill-box{
   display: flex;
