@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+  background-color: #FFFFFF;
+  /* border: 1px red solid; */
+}
+nav{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+nav .menu{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 180px;
+}
+nav .menu a{
+  text-decoration: none;
+}
+#bd-img .middle-point{
+  width: 81%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 116px 120px 180px 120px;
+}
+#bd-img{
+  background-image: url(./assets/hero-bg.png);
+ 
+ 
+}
+.middle-point{
+  margin: 116px 120px 264px 120px;
+   text-align: center;
+}
+.middle-point .small{
+  font-size: 16px;
+  font-weight: middle;
+  color: #30b868;
+  background-color: #e9e6fa;
+  padding: 8px 4px;
+  border-radius: 3px;
+  display: inline-block;
+  padding-bottom: 24px;
+}
+.middle-point .small h1{
+  font-size: 72px;
+  font-weight: bold;
+  padding-bottom: 16px;
+  color: #FFFFFF;
+}
+.middle-point p{
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 32px;
+}
+.color-green{
+  color: #30B868;
+}
+.btn1{
+  background-color: #30B868;
+  /* border: none; */
+  padding: 16px 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn2{
+  /* border: none; */
+  padding: 16px 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn3{
+  /* border: none; */
+  background-color: #30B868;
+  padding: 12px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#skill{
+  /* border: 2px solid red ; */
+  padding: 80px;
+  text-align: center; 
+}
+#skill h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+ 
+#skill .skill-container .skill-box{
+  display: flex;
+  gap: 24px;
+}
+#skill .skill-container p{
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 44px;
+}
+.skill-box .skill-card{
+  padding: 30px;
+  max-width: 322px;
+  box-shadow: 0 6px 50px 0 #00000018 ;
+}
+.skill-card h3{
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skill-card p{
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+}
+ #power{
+  margin-bottom: 120px;
+ }
+ .power-full .power-comtainer{
+  display: flex;
+  max-width: 1360px;
+   align-items: center;
+   gap: 60px;
+ }
+ .cell{
+  width: 700px;
+  height: 396px;
+ }
+ .font-one{
+font-size: 16px;
+line-height: 20px;
+color: #30B868;
+padding-bottom: 16px;
+ }
+ .num-one{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  padding-bottom: 16px;
+ }
+.num-two{
+  font-size: 18px;
+  line-height: 20px;
+  color: #627382;
+  padding-bottom: 40px;
+}
+.three{
+  font-size: 16px;
+  line-height: 20px;
+}
+.white-color{
+  color: white;
+}
